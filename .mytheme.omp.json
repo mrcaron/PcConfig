@@ -9,9 +9,9 @@
             "type": "session",
             "style": "diamond",
             "foreground": "#ffffff",
-            "background": "#c386f1",
-            "leading_diamond": "\uE0B6",
-            "trailing_diamond": "\uE0B0"
+            "background": null,
+            "leading_diamond": null,
+            "trailing_diamond": null
           },
           {
             "type": "path",
@@ -31,7 +31,7 @@
             "foreground": "#193549",
             "background": "#ffeb3b",
             "properties": {
-              "git_icon": "\ue709 ",
+              "git_icon": "",
               "branch_icon": "\uE725 ",
               "display_stash_count": true,
               "display_upstream_icon": true
