@@ -27,17 +27,16 @@
           {
             "type": "git",
             "style": "powerline",
-            "powerline_symbol": "\uE708",
-            "invert_powerline": false,
+            "powerline_symbol": "\uE0B0",
             "foreground": "#193549",
-            "background": "#fffb38",
-            "leading_diamond": "",
-            "trailing_diamond": "",
+            "background": "#ffeb3b",
             "properties": {
-                "display_stash_count": true,
-                "display_upstream_icon": true
+              "git_icon": "\ue709 ",
+              "branch_icon": "\uE725 ",
+              "display_stash_count": true,
+              "display_upstream_icon": true
             }
-        },
+          },
           {
             "type": "node",
             "style": "powerline",
