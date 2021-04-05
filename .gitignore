@@ -2,5 +2,5 @@
 !.gitignore
 !BoxStarter.ps1
 !Documents\WindowsPowerShell\Microsofft.PowerShell_profile.ps1
-!AppData\Roaming\Code\User\settings.json
 !Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+!AppData\Roaming\Code\User\settings.json
