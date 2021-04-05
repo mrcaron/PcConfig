@@ -13,4 +13,5 @@ if (Test-Path($ChocolateyProfile)) {
   Import-Module "$ChocolateyProfile"
 }
 
-Invoke-Expression (oh-my-posh --init --shell pwsh --config "$(scoop prefix oh-my-posh)/themes/jandedobbeleer.omp.json")
+Invoke-Expression (oh-my-posh --init --shell pwsh)
+Set-PoshPrompt -Theme ~/.mytheme.omp.json
