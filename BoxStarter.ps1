@@ -14,5 +14,6 @@ cinst pwsh -y
 cinst vscode -ya
 cinst firacode -y
 cinst firacodenf -y
+cinst windirstat -y
 
 Install-Module oh-my-posh -Scope CurrentUser -AllowPrerelease
