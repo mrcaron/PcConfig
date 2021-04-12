@@ -15,5 +15,6 @@ cinst vscode -ya
 cinst firacode -y
 cinst firacodenf -y
 cinst windirstat -y
+cinst git-lfs -y
 
 Install-Module oh-my-posh -Scope CurrentUser -AllowPrerelease
