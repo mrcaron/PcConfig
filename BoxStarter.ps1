@@ -16,5 +16,7 @@ cinst firacode -y
 cinst firacodenf -y
 cinst windirstat -y
 cinst git-lfs -y
+cinst discord -y
+cinst microsoft-teams -y
 
 Install-Module oh-my-posh -Scope CurrentUser -AllowPrerelease
