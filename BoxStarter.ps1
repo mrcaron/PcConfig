@@ -18,5 +18,6 @@ cinst windirstat -y
 cinst git-lfs -y
 cinst discord -y
 cinst microsoft-teams -y
+cinst 1password -y
 
 Install-Module oh-my-posh -Scope CurrentUser -AllowPrerelease
