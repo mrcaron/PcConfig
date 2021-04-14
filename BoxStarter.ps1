@@ -20,4 +20,10 @@ cinst discord -y
 cinst microsoft-teams -y
 cinst 1password -y
 
+# get latest dotnet
+cinst dotnet -y
+
+# get Node Version Manager
+cinst nvm -y
+
 Install-Module oh-my-posh -Scope CurrentUser -AllowPrerelease
