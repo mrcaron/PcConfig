@@ -22,6 +22,7 @@ cinst 1password -y
 
 # get latest dotnet
 cinst dotnet -y
+cinst dotnet-sdk -y
 
 # get Node Version Manager
 cinst nvm -y
