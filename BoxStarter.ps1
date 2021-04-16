@@ -19,6 +19,7 @@ cinst git-lfs -y
 cinst discord -y
 cinst microsoft-teams -y
 cinst 1password -y
+cinst mRemoteNG -y
 
 # get latest dotnet
 cinst dotnet -y
