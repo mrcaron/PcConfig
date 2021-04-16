@@ -20,6 +20,7 @@ cinst discord -y
 cinst microsoft-teams -y
 cinst 1password -y
 cinst mRemoteNG -y
+cinst azure-data-studio -y
 
 # get latest dotnet
 cinst dotnet -y
