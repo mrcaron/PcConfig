@@ -21,6 +21,7 @@ cinst microsoft-teams -y
 cinst 1password -y
 cinst mRemoteNG -y
 cinst azure-data-studio -y
+cinst postaman -y
 
 # get latest dotnet
 cinst dotnet -y
