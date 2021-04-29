@@ -1,20 +1,15 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This repository helps me setup a new windows box. Maybe it will help others, but this is specific to my development needs. 
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+1. Open a command line to `C:\users\<USERNAME>\` directory (usually corresponds to `$HOME`)
+2. Enter `git init` to create a _new_ git repo there
+2. Copy the remote url for this repo to your clipboard
+3. Back in the command line, enter `git add remote origin <URL>` where `<URL>` is from your clipboard
+4. Enter `git pull origin master`
+5. Open a new administrator powershell prompt
+   1. change directory to your home
+   2. run the `install_chocolatey.ps1` to install Chocolatey
+   3. close and reopen this admin prompt
+   4. run the `Box_Starter.ps1` script to install everything
