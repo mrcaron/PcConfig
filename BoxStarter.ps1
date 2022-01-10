@@ -23,6 +23,7 @@ cinst mRemoteNG -y
 cinst azure-data-studio -y
 cinst postaman -y
 cinst python3 -y
+cinst neovim -y
 
 # get latest dotnet
 cinst dotnet -y
