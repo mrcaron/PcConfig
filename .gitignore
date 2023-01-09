@@ -1,17 +1,3 @@
-#!.gitignore
-#!BoxStarter.ps1
-#!Documents/WindowsPowerShell/Microsofft.PowerShell_profile.ps1
-#!Documents/WindowsPowerShell/Microsofft.PowerShell_profile.dark.ps1
-#!Documents/WindowsPowerShell/Microsofft.PowerShell_profile.light.ps1
-#!Documents/PowerShell/Microsoft.PowerShell_profile.ps1
-#!Documents/PowerShell/Microsofft.PowerShell_profile.dark.ps1
-#!Documents/PowerShell/Microsofft.PowerShell_profile.light.ps1
-#Documents
-#!AppData/Roaming/Code/User/settings.json
-#!.mytheme.omp.json
-#!.mytheme.omp.light.json
-#!.mytheme.omp.dark.json
-#!*.ps1
 
 Documents/WindowsPowershell/*
 !Documents/WindowsPowerShell/Microsofft.PowerShell_profile.ps1
@@ -22,4 +8,12 @@ Documents/Powershell/*
 !Documents/PowerShell/Microsofft.PowerShell_profile.dark.ps1
 !Documents/PowerShell/Microsofft.PowerShell_profile.light.ps1
 Documents/*
+AppData/RoamingCode/User/*
+!AppData/Roaming/Code/User/settings.json
 *
+!.gitignore
+!BoxStarter.ps1
+!.mytheme.omp.json
+!.mytheme.omp.light.json
+!.mytheme.omp.dark.json
+!*.ps1
