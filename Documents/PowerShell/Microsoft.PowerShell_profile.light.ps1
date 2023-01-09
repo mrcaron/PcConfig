@@ -14,6 +14,7 @@ function light {
     . ~\Documents\Powershell\Microsoft.Powershell_profile.light.ps1;
 }
 
+
 # Chocolatey profile
 $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
 if (Test-Path($ChocolateyProfile)) {
@@ -21,4 +22,4 @@ if (Test-Path($ChocolateyProfile)) {
 }
 
 Invoke-Expression (oh-my-posh --init --shell pwsh)
-Set-PoshPrompt -Theme ~/.mytheme.omp.json
+Set-PoshPrompt -Theme ~/.mytheme.omp.light.json
