@@ -13,4 +13,3 @@ if (Test-Path($ChocolateyProfile)) {
   Import-Module "$ChocolateyProfile"
 }
 
-Set-PoshPrompt -Theme ~/.mytheme.omp.json

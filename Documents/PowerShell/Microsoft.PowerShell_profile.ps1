@@ -8,10 +8,13 @@ function global:Invoke-VS2017Env {
     invoke-batchfile "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\Tools\VsDevCmd.bat"
 }
 function dark {
-    . ~\Documents\Powershell\Microsoft.Powershell_profile.dark.ps1;
+    set-poshprompt ~/.mytheme.omp.json
 }
 function light {
-    . ~\Documents\Powershell\Microsoft.Powershell_profile.light.ps1;
+    set-poshprompt ~/.mytheme.omp.light.json
+}
+function amro {
+    set-poshprompt $env:POSH_THEMES_PATH\amro.omp.json
 }
 
 # Chocolatey profile
@@ -20,5 +23,5 @@ if (Test-Path($ChocolateyProfile)) {
   Import-Module "$ChocolateyProfile"
 }
 
-Invoke-Expression (oh-my-posh --init --shell pwsh)
-Set-PoshPrompt -Theme ~/.mytheme.omp.json
+oh-my-posh init pwsh --config ~/star.omp.json | Invoke-Expression
+
