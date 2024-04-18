@@ -17,3 +17,4 @@ AppData/RoamingCode/User/*
 !.mytheme.omp.light.json
 !.mytheme.omp.dark.json
 !*.ps1
+!winget.yaml
