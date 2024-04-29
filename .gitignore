@@ -18,3 +18,4 @@ AppData/RoamingCode/User/*
 !.mytheme.omp.dark.json
 !*.ps1
 !winget.yaml
+!.wslconfig
