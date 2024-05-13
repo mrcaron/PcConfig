@@ -10,8 +10,6 @@ This repository helps me setup a new windows box. Maybe it will help others, but
 4. Enter `git pull origin master`
 5. Open a new administrator powershell prompt
    1. change directory to your home
-   2. run the `install_chocolatey.ps1` to install Chocolatey
-   3. close and reopen this admin prompt
    4. run the `Box_Starter.ps1` script to install everything
 
 ## Special NOTE
