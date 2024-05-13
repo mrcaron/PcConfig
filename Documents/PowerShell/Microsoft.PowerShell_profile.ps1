@@ -1,7 +1,7 @@
 ~\Documents\WindowsPowerShell\Scripts\Invoke-Batchfile.ps1
 
 # load VS 2022 into environment
-function global:Invoke-VS2019Env {
+function global:Invoke-VS2022Env {
     invoke-batchfile "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\Tools\VsDevCmd.bat"
 }
 # load VS 2019 into environment
